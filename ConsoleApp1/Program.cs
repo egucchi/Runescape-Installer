@@ -319,7 +319,7 @@ namespace Program
                 Thread.Sleep(20000);
                 System.Environment.Exit(1); // Exits the application, forcing a blue screen.
             }
-            else // If the program was not ran as an administrator
+            else // If the program was not run as an administrator
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Runescape requires administrator privileges. Please restart this application in administrator mode to continue.");

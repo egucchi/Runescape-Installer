@@ -1,0 +1,10 @@
+C:\Users\kuk\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Runescape Installer.csprojResolveAssemblyReference.cache
+C:\Users\kuk\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\RunescapeInstaller.Properties.Resources.resources
+C:\Users\kuk\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Runescape Installer.csproj.GenerateResource.Cache
+C:\Users\kuk\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Runescape Installer.csproj.CoreCompileInputs.cache
+C:\Users\kuk\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Runescape Installer.exe
+C:\Users\kuk\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Runescape Installer.pdb
+C:\Users\kuk\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Resources\nyan.mbr
+C:\Users\kuk\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Runescape Installer.exe.config
+C:\Users\kuk\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Runescape Installer.exe
+C:\Users\kuk\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Runescape Installer.pdb

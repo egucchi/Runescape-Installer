@@ -14,26 +14,14 @@
 ---------------------------------------------------------------- ▒▒▒▒▀▀▀▀▀▀▀▒▒▒▒▒▒▒▒▒▒▒▒▒
 */
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Reflection;
 using System.IO;
-using System.Threading.Tasks;
-using System.Management;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
 using System.Security.Principal;
 using System.Threading;
 using System.Net;
-using System.Media;
-using Microsoft.Win32;
-using System.Security;
 using System.Security.Cryptography;
-using System.Text.RegularExpressions;
 
 
 namespace Program

@@ -1,6 +1,6 @@
 ﻿/*
 ---------------------------------------------------------------- ▒▒▒▒▒▒▒▒▄▄▄▄▄▄▄▄▒▒▒▒▒▒▒▒
-|                          ATTENTION!                          | ▒▒▒▒▒▄█▀▀░░░░░░▀▀█▄▒▒▒▒▒ 
+|                           ATTENTION!                         | ▒▒▒▒▒▄█▀▀░░░░░░▀▀█▄▒▒▒▒▒ 
 |      Executing this will render your computer unbootable;    | ▒▒▒▄█▀▄██▄░░░░░░░░▀█▄▒▒▒ 
 |  I am not responsible for any damage caused by running this. | ▒▒█▀░▀░░▄▀░░░░▄▀▀▀▀░▀█▒▒ 
 |                                                              | ▒█▀░░░░███░░░░▄█▄░░░░▀█▒ 

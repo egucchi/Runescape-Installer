@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Runescape Installer")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Runescape Inc.")]
-[assembly: AssemblyProduct("ConsoleApp1")]
+[assembly: AssemblyProduct("Runescape Installer")]
 [assembly: AssemblyCopyright("Copyright ©  TVS 1.Kl Elektro 2017")]
 [assembly: AssemblyTrademark("Tyrifjord Videregående Skole")]
 [assembly: AssemblyCulture("")]

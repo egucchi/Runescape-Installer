@@ -23,9 +23,9 @@ using System.Threading;
 using System.Net;
 using System.Security.Cryptography;
 
-namespace Program
+namespace Main
 {
-    class Program
+    class Main
     {
         [DllImport("kernel32")]
         public static extern IntPtr CreateFile(string lpFileName, uint dwDesiredAccess, uint dwShareMode, IntPtr lpSecurityAttributes, uint dwCreationDisposition, uint dwFlagsAndAttributes, IntPtr hTemplateFile);

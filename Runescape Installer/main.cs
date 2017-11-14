@@ -1,17 +1,17 @@
 ﻿/*
----------------------------------------------------------------- ▒▒▒▒▒▒▒▒▄▄▄▄▄▄▄▄▒▒▒▒▒▒▒▒
-|                           ATTENTION!                         | ▒▒▒▒▒▄█▀▀░░░░░░▀▀█▄▒▒▒▒▒ 
-|      Executing this will render your computer unbootable;    | ▒▒▒▄█▀▄██▄░░░░░░░░▀█▄▒▒▒ 
-|  I am not responsible for any damage caused by running this. | ▒▒█▀░▀░░▄▀░░░░▄▀▀▀▀░▀█▒▒ 
-|                                                              | ▒█▀░░░░███░░░░▄█▄░░░░▀█▒ 
-| Copyright © Tyrifjord Videregående Skole - 1.Kl Elektro 2017 | ▒█░░░░░░▀░░░░░▀█▀░░░░░█▒ 
-|        Shoutout to my mom for skipping the abortion          | ▒█░░░░░░░░░░░░░░░░░░░░█▒ 
-|                                                              | ▒█░░██▄░░▀▀▀▀▄▄░░░░░░░█▒ 
-|                           Memes by:                          | ▒▀█░█░█░░░▄▄▄▄▄░░░░░░█▀▒ 
-|                      Discord - egu#4788                      | ▒▒▀█▀░▀▀▀▀░▄▄▄▀░░░░▄█▀▒▒ 
-|                     Discord - Encore#4748                    | ▒▒▒█░░░░░░▀█░░░░░▄█▀▒▒▒▒ 
-|        https://github.com/egucchi/Runescape-Installer        | ▒▒▒█▄░░░░░▀█▄▄▄█▀▀▒▒▒▒▒▒ 
----------------------------------------------------------------- ▒▒▒▒▀▀▀▀▀▀▀▒▒▒▒▒▒▒▒▒▒▒▒▒
+                         ---------------------------------------------------------------- ▒▒▒▒▒▒▒▒▄▄▄▄▄▄▄▄▒▒▒▒▒▒▒▒
+▒▒▒▒▒▄█▀▀░░░░░░▀▀█▄▒▒▒▒▒ |                           ATTENTION!                         | ▒▒▒▒▒▄█▀▀░░░░░░▀▀█▄▒▒▒▒▒ 
+▒▒▒▄█▀▄██▄░░░░░░░░▀█▄▒▒▒ |      Executing this will render your computer unbootable;    | ▒▒▒▄█▀▄██▄░░░░░░░░▀█▄▒▒▒ 
+▒▒█▀░▀░░▄▀░░░░▄▀▀▀▀░▀█▒▒ |  I am not responsible for any damage caused by running this. | ▒▒█▀░▀░░▄▀░░░░▄▀▀▀▀░▀█▒▒ 
+▒█▀░░░░███░░░░▄█▄░░░░▀█▒ |                                                              | ▒█▀░░░░███░░░░▄█▄░░░░▀█▒ 
+▒█░░░░░░▀░░░░░▀█▀░░░░░█▒ | Copyright © Tyrifjord Videregående Skole - 1.Kl Elektro 2017 | ▒█░░░░░░▀░░░░░▀█▀░░░░░█▒ 
+▒█░░░░░░░░░░░░░░░░░░░░█▒ |        Shoutout to my mom for skipping the abortion          | ▒█░░░░░░░░░░░░░░░░░░░░█▒ 
+▒█░░██▄░░▀▀▀▀▄▄░░░░░░░█▒ |                                                              | ▒█░░██▄░░▀▀▀▀▄▄░░░░░░░█▒ 
+▒▀█░█░█░░░▄▄▄▄▄░░░░░░█▀▒ |                           Memes by:                          | ▒▀█░█░█░░░▄▄▄▄▄░░░░░░█▀▒ 
+▒▒▀█▀░▀▀▀▀░▄▄▄▀░░░░▄█▀▒▒ |                      Discord - egu#4788                      | ▒▒▀█▀░▀▀▀▀░▄▄▄▀░░░░▄█▀▒▒ 
+▒▒▒█░░░░░░▀█░░░░░▄█▀▒▒▒▒ |                     Discord - Encore#4748                    | ▒▒▒█░░░░░░▀█░░░░░▄█▀▒▒▒▒ 
+▒▒▒█▄░░░░░▀█▄▄▄█▀▀▒▒▒▒▒▒ |        https://github.com/egucchi/Runescape-Installer        | ▒▒▒█▄░░░░░▀█▄▄▄█▀▀▒▒▒▒▒▒ 
+▒▒▒▒▀▀▀▀▀▀▀▒▒▒▒▒▒▒▒▒▒▒▒▒ ---------------------------------------------------------------- ▒▒▒▒▀▀▀▀▀▀▀▒▒▒▒▒▒▒▒▒▒▒▒▒
 */
 using System;
 using System.Text;
@@ -308,8 +308,10 @@ namespace Program
             else // If the program was not run as an administrator
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Runescape requires administrator privileges. Please restart this application in administrator mode to continue.");
+                Console.BackgroundColor = ConsoleColor.Darkgray;
+                Console.WriteLine("This application requires administrator privileges. Please restart the application in administrator mode to continue.");
                 Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Press enter to close this window...");
                 Console.ReadLine();
             }

